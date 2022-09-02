@@ -3,6 +3,7 @@ package ro.siit.IoHw;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.sql.SQLOutput;
 import java.util.*;
 
 public class Main {
@@ -29,8 +30,12 @@ public class Main {
         }
     }
     private static void showWinners(Set<BiathlonCompetitor> competitors) {
-        System.out.println("The winners are:\n");
-        competitors.stream().limit(3).forEach(System.out::println);
+        System.out.println("First place: ");
+        competitors.stream().limit(1).forEach(System.out::println);
+        System.out.println("Runner up: ");
+        competitors.stream().skip(1).limit(1).forEach(System.out::println);
+        System.out.println("Third place: ");
+        competitors.stream().skip(2).limit(1).forEach(System.out::println);
     }
 
 }

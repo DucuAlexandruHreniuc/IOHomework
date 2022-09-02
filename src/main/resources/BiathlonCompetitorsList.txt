@@ -3,5 +3,5 @@
 27,Piotr Smitzer,CZ,30:10,xxxxx,xxxxx,xxxxx
 49,Cocolino, RO,40:41,xxxoo,ooooo,ooooo
 41,Roberto, UG,61:13,ooooo,ooooo,ooooo
-3,Traian Basescu, RO,29:14,xxooo,xxxxx,xxxxx
-53, Michael Jackson, EN,29:26,xooxx,xxxxx,xxxxx
+3,Traian Basescu, RO,29:14,xxooo,xxxxx,oxooo
+53, Michael Jackson, EN,29:26,ooooo,xoxxx,xxxxx
